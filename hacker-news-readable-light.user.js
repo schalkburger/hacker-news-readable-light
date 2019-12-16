@@ -35,6 +35,13 @@
         font-size: 12pt;
         line-height: 22pt;
     }
+
+    .fatitem {
+        background: #f7f5f5;
+        width: 100%;
+        padding: 0 0 20px 0;
+        border-bottom: 2px solid #ccc;
+    }
     
     .fatitem .comment {
         background: #f7f5f5;
