@@ -29,4 +29,10 @@
     td.subtext {
         padding-top: 8px;
     }
+
+    .comment-tree .comment {
+        font-family: Georgia, Times, Times New Roman, serif;
+        font-size: 12pt;
+        line-height: 22pt;
+    }
 }
