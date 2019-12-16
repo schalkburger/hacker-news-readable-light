@@ -30,9 +30,14 @@
         padding-top: 8px;
     }
 
-    .comment-tree .comment {
+    .comment-tree .comment, .fatitem .comment {
         font-family: Georgia, Times, Times New Roman, serif;
         font-size: 12pt;
         line-height: 22pt;
+    }
+    
+    .fatitem .comment {
+        background: #f7f5f5;
+        padding: 15px 25px;
     }
 }
