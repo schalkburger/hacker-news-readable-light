@@ -1,11 +1,17 @@
 @-moz-document url-prefix("https://news.ycombinator.com/") {
-    body, .title {
+  body, .title {
         font-family: Georgia, Times, Times New Roman, serif;
+    	background: #2b3033 !important;
+		color: #fff !important;
     }
+
+
+	a:link    { color:#fff !important; }
+	a:visited { color:#797979 !important; }
     
     table#hnmain {
         max-width: 750px;
-        background-color: transparent;
+        background-color: rgba(125, 124, 124, 0);
     }
     
     td {
@@ -14,7 +20,7 @@
     
     .title {
         font-size: 14pt;
-        color: #111;
+        color: #fff;
     }
     
     tr.spacer {
@@ -37,7 +43,7 @@
     }
 
     .fatitem {
-        background: #f7f5f5;
+        background: #fff0;
         width: 100%;
         padding: 0 0 20px 0;
         border-bottom: 2px solid #ccc;
@@ -47,4 +53,8 @@
         background: #f7f5f5;
         padding: 15px 25px;
     }
+
+	.comment .c00 {
+		color: #fff !important;
+	}
 }
