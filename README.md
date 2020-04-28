@@ -6,6 +6,6 @@ A more readable version of Hacker News inspired by Instapaper.
 
 #
 
-![Image of Yaktocat](hacker-news-readable-light.png)
+![Image of Hacker News Readable Dark](hacker-news-readable-dark.png)
 
 #
