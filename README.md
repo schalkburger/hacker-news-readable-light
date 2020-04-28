@@ -1,4 +1,4 @@
-# Hacker News Readable
+# Hacker News Readable Light
 
 A more readable version of Hacker News inspired by Instapaper.
 
