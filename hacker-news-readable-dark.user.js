@@ -1,16 +1,20 @@
 @-moz-document url-prefix("https://news.ycombinator.com/") {
-  body, .title {
-        font-family: Georgia, Times, Times New Roman, serif;
-    	background: #2b3033 !important;
-		color: #fff !important;
+    body,
+    .title {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        background: #2D3142 !important;
+        color: #fff !important;
     }
-
-
-	a:link    { color:#fff !important; }
-	a:visited { color:#797979 !important; }
+    
+    a:link {
+        color: #e6e6e6 !important;
+    }
+    a:visited {
+        color: #939393 !important;
+    }
     
     table#hnmain {
-        max-width: 750px;
+        max-width: 700px;
         background-color: rgba(125, 124, 124, 0);
     }
     
@@ -19,8 +23,18 @@
     }
     
     .title {
+        color: #979797 !important;
+    }
+    
+    .title a {
+        font-family: Georgia, Times, Times New Roman, serif;
         font-size: 14pt;
-        color: #fff;
+        color: #f9f9f9 !important;
+        line-height: 1.4;
+    }
+    
+    .subtext a {
+        color: #b7b7b7 !important;
     }
     
     tr.spacer {
@@ -35,13 +49,14 @@
     td.subtext {
         padding-top: 8px;
     }
-
-    .comment-tree .comment, .fatitem .comment {
+    
+    .comment-tree .comment,
+    .fatitem .comment {
         font-family: Georgia, Times, Times New Roman, serif;
         font-size: 12pt;
         line-height: 22pt;
     }
-
+    
     .fatitem {
         background: #fff0;
         width: 100%;
@@ -53,8 +68,8 @@
         background: #f7f5f5;
         padding: 15px 25px;
     }
-
-	.comment .c00 {
-		color: #fff !important;
-	}
+    
+    .comment .c00 {
+        color: #fff !important;
+    }
 }
