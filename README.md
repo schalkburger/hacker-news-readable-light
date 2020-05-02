@@ -6,6 +6,4 @@ A more readable version of Hacker News inspired by Instapaper.
 
 #
 
-![Image of Hacker News Readable Light](hacker-news-readable-light.png)
-
-#
+![Image of Hacker News Readable Light](hacker-news-readable-light-screenshot.png)

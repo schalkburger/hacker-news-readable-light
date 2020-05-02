@@ -1,74 +1,86 @@
 @-moz-document url-prefix("https://news.ycombinator.com/") {
-    body, .title {
+    body,
+    .title {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        background: #fff !important;
-        color: #939393 !important;
-        }
-    
-    a:link {
-        color: #939393 !important;
+        background: #F8F9FC !important;
+        color: #4f4f4f !important;
     }
-    a:visited {
-        color: #939393 !important;
-    }
-    
+
     table#hnmain {
         max-width: 700px;
         background-color: rgba(125, 124, 124, 0);
     }
-    
+
     td {
         background-color: transparent;
     }
-    
+
     .title {
-        color: #979797 !important;
+        color: #4f4f4f !important;
     }
-    
+
     .title a {
-        font-family: Georgia, Times, Times New Roman, serif;
-        font-size: 14pt;
-        color: #595959 !important;
+        font-size: 13pt;
+        color: #4f4f4f !important;
         line-height: 1.4;
+        font-weight: 500;
     }
-    
+
+    a:link {
+        color: #4f4f4f !important;
+    }
+    a:visited {
+        color: #b7b7b7 !important;
+    }
+
+    span.sitebit.comhead a > span {
+        color: #868686 !important;
+        font-size: 10pt;
+    }
+
     .subtext a {
-        color: #939393 !important;
+        color: #6d6d6d !important;
     }
-    
+
     tr.spacer {
         height: 20px !important;
         box-shadow: 0px 1px 0 0px #ececec;
     }
-    
+
     tr.athing td {
         padding-top: 20px;
+        border-top: 1px solid #dbdbdb;
     }
-    
+
+    tr.athing.comtr td * td {
+        border-top: none;
+        padding-bottom: 20px;
+    }
+
     td.subtext {
         padding-top: 8px;
     }
-    
+
     .comment-tree .comment,
     .fatitem .comment {
         font-family: Georgia, Times, Times New Roman, serif;
         font-size: 12pt;
         line-height: 22pt;
     }
-    
+
     .fatitem {
         background: #fff0;
         width: 100%;
         padding: 0 0 20px 0;
         border-bottom: 2px solid #ccc;
     }
-    
+
     .fatitem .comment {
         background: #f7f5f5;
         padding: 15px 25px;
     }
-    
+
     .comment .c00 {
-        color: #fff !important;
+        color: #4f4f4f !important;
     }
 }
