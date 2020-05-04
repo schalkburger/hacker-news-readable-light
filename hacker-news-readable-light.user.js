@@ -13,6 +13,11 @@
 
     td {
         background-color: transparent;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+        background-color: transparent;
+        color: #4f4f4f !important;
+        font-size: 12pt;
+        line-height: 22pt;
     }
 
     .title {
@@ -38,7 +43,7 @@
         font-size: 10pt;
     }
 
-    .subtext a {
+    .subtext, .subtext a, .subtext .score, .subtext .age a {
         color: #6d6d6d !important;
     }
 
@@ -63,9 +68,8 @@
 
     .comment-tree .comment,
     .fatitem .comment {
-        font-family: Georgia, Times, Times New Roman, serif;
-        font-size: 12pt;
-        line-height: 22pt;
+        font-size: 10pt;
+        line-height: 20pt;
     }
 
     .fatitem {
@@ -81,6 +85,14 @@
     }
 
     .comment .c00 {
+        color: #4f4f4f !important;
+    }
+
+    .pagetop a:visited {
+        color: #4f4f4f !important;
+    }
+
+    .fatitem .title a:visited {
         color: #4f4f4f !important;
     }
 }
