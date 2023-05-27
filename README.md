@@ -1,9 +1,8 @@
-# Hacker News Readable Light
+# This repository has moved to:
+## <https://github.com/schalkburger/website-enhancements>
 
-A more readable version of Hacker News inspired by Instapaper.
+~~# Hacker News Readable Light~~
 
-[Download from Stylish / Userstyles.org](https://userstyles.org/styles/177181/hacker-news-readable-light)
+~~A more readable version of Hacker News inspired by Instapaper.~~
 
-#
-
-![Image of Hacker News Readable Light](hacker-news-readable-light-screenshot.png)
+~~[Download from Stylish / Userstyles.org](https://userstyles.org/styles/177181/hacker-news-readable-light)~~
